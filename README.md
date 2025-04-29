@@ -4,3 +4,6 @@
 
 ## Instruções de build
 * npm run start:dev
+
+## Swagger Configurado
+Acesso em: http://localhost:3000/api#/

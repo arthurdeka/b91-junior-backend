@@ -1,3 +1,10 @@
+# Desafio Junior B91
+## Sistema de Controle de Transações financeiras
+
+## Instruções de build
+* npm run start:dev
+* 
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>

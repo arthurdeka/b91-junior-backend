@@ -13,11 +13,11 @@ export class TransacoesService {
   }
 
   findAll() {
-    return `This action returns all transacoes`;
+    return this.prisma.transacao.findMany();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} transacoe`;
+  findOne(id: string) {
+    return this.prisma.transacao.findUnique({ where: { id: id } });
   }
 
   remove(id: number) {
